@@ -1,0 +1,23 @@
+.common{
+    height: 70px;
+    width: 23%;
+}
+.common h3{
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+.common h4{
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 15px;
+}
+.locations{
+    display: inline-block;
+   border-right: 1px solid #DDDDDD;
+}
+.amenities{
+    display: inline-block;
+}
