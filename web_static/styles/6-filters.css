@@ -1,0 +1,81 @@
+.common {
+    height: 70px;
+    width: 25%;
+}
+
+.common h3 {
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+
+.common h4 {
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.locations {
+    position: absolute;
+    line-height: 1.0;
+   left: 10px;
+   bottom: -58px;
+}
+
+.amenities {
+    position: absolute;
+    top: 103px;
+    right: 37%;
+    border-left: 1px solid #DDDDDD;
+}
+
+.popover{
+    position: relative;
+    display: inline-block;
+}
+.popover-content {
+    display: none;
+    position: absolute;
+    top: 55px;
+    min-width: 160px;
+    background-color: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    width: 25%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 1;
+}
+
+.popover-content2 {
+    display: none;
+    position: absolute;
+    top: 55px;
+    left: -10px;
+    min-width: 170px;
+    background-color: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    border-top: none;
+    width: 45%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 1;
+}
+.popover-content li{
+    list-style: none;
+}
+.popover-content2 li {
+    list-style: none;
+}
+.popover-title{
+    font-size: 16px;
+}
+.popover:hover .popover-content{
+    display: block;
+}
+.popover:hover .popover-content2 {
+    display: block;
+}
